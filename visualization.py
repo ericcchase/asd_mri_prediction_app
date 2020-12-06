@@ -37,7 +37,7 @@ class Viz:
 
     @staticmethod
     def get_footer():
-        logo_loaded = niimage.load_img('banner.nii')
+        logo_loaded = niimage.load_img('./assets/images/banner.nii')
         x = logo_loaded.get_data()
         x = scipy.ndimage.rotate(x, 90, axes=(2, 0))
 

@@ -18,7 +18,7 @@ viz = Viz()
 def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)   
-local_css("style.css")
+local_css("./assets/stylesheets/style.css")
 
 
 ###############################         LAYOUT        #####################################
@@ -60,7 +60,7 @@ if uploaded_file:
 
             #####################         TFLITE INTERPRETER         ##################################
             interpreter = tf.lite.Interpreter(
-                model_path='./asdnet.tflite', 
+                model_path='./assets/models/asdnet.tflite', 
                 # experimental_delegates=[tf.lite.load_delegate('libedgetpu.so.1')], # linux runtime library
                 experimental_delegates=[tf.lite.experimental.load_delegate('libedgetpu.1.dylib')], 
             )
