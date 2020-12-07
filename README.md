@@ -6,7 +6,7 @@
 
 This is an ongoing research project that attempts to diagnose Autism Spectrum Disorder (ASD) by classifying function magnetic resonance images (fMRIs) with convolutional neural networks (CNNs).  A great deal of preparatory work has gone into this project leaving much work still to be done in the classification/modeling area.  This project is configured for Google Colab with a Tensor Processing Unit (TPU) for training, Google Cloud Storage (GCS) for data, model, and results retrieval/storage, and Coral Edge coprocessor for inference.
 
-This repo is the **2nd of 2 repos** for this project.
+This repo is the **2nd of 2 repos** for this project.  The 1st repo can be found at https://github.com/ericcchase/asd_mri_prediction_modeling.git 
 
 --- 
 
