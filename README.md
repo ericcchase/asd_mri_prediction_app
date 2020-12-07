@@ -6,9 +6,9 @@
   <a href="https://youtu.be/Sm_a8aFiApo"> Click to watch! </a>
 </div>
 
-<h1 style='align: center'> ASDNet </h1>
+<h1 align="center"> ASDNet </h1>
 
-<div style="align:center" >
+<div align="center" >
 <img src="./assets/images/glassbrain1.png" width="50%" >
 </div>
 
